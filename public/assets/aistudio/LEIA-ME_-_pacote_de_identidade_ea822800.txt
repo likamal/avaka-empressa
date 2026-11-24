@@ -1,0 +1,18 @@
+# AVAKA CORPORATION — Kit para criação do site
+
+## Conteúdo
+- `PROMPT-PRINCIPAL-STITCH.md`: prompt completo para colar no Stitch ou em outra ferramenta de criação de sites.
+- `AVAKA-TOKENS.css`: tokens de identidade visual e estilos-base.
+- `assets/avaka-logo.png`: logo principal.
+- `assets/avaka-favicon.png`: símbolo recortado para favicon.
+- `assets/favicon-64.png` e `assets/favicon-32.png`: tamanhos menores do favicon.
+
+## Como usar
+1. Envie este ZIP para a ferramenta, se ela aceitar arquivos de referência.
+2. Abra `PROMPT-PRINCIPAL-STITCH.md` e copie o prompt completo para o campo de instruções.
+3. Anexe também `assets/avaka-logo.png` como referência visual e informe que a logo deve ser usada sem alterações.
+4. Use `assets/avaka-favicon.png` como ícone do navegador. Se a ferramenta gerar o projeto, coloque-o na pasta pública do site e configure o favicon no HTML.
+5. Anexe depois as imagens do data center e da sede corporativa quando estiverem prontas.
+
+## Observações
+A Avaka Corporation, sua história, seus personagens, locais, contatos, indicadores e preços são fictícios e destinados ao projeto educacional. O minijogo não está incluído: o prompt reserva a área para integração futura.

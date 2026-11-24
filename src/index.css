@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+/* AVAKA CORPORATION — Tokens de identidade visual e estilos-base */
+:root {
+  --card: #050505;
+  --ring: #00FF41;
+  --input: #000000;
+  --muted: #001A00;
+  --accent: #00FF41;
+  --border: #003B00;
+  --radius: 0rem;
+  --chart-1: #00FF41;
+  --chart-2: #008F11;
+  --chart-3: #003B00;
+  --chart-4: #0D0208;
+  --chart-5: #00FF41;
+  --popover: #000000;
+  --primary: #00FF41;
+  --sidebar: #050505;
+  --spacing: 0.25rem;
+  --font-mono: "IBM Plex Mono", "VT323", monospace;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --secondary: #003B00;
+  --background: #000000;
+  --foreground: #00FF41;
+  --destructive: #FF0000;
+  --shadow-blur: 10px;
+  --shadow-color: #00FF41;
+  --shadow-spread: 1px;
+  --letter-spacing: 0.08em;
+  --shadow-opacity: 0.2;
+  --sidebar-accent: #003B00;
+  --sidebar-border: #003B00;
+  --card-foreground: #00FF41;
+  --sidebar-primary: #00FF41;
+  --muted-foreground: #008F11;
+  --accent-foreground: #000000;
+  --popover-foreground: #00FF41;
+  --primary-foreground: #000000;
+  --sidebar-foreground: #00FF41;
+  --secondary-foreground: #00FF41;
+  --destructive-foreground: #FFFFFF;
+  --sidebar-accent-foreground: #00FF41;
+  --sidebar-primary-foreground: #000000;
+
+  --brand-red: #ff1717;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-technical: "IBM Plex Mono", monospace;
+  --font-editorial: "Cormorant Garamond", Georgia, serif;
+  --font-terminal: "VT323", monospace;
+}
+
+.dark {
+  --shadow-blur: 15px;
+  --shadow-spread: 2px;
+  --shadow-opacity: 0.4;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #000000;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: #e6efe8;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+code, pre, .technical-label, .font-technical {
+  font-family: var(--font-technical);
+}
+
+.font-editorial {
+  font-family: var(--font-editorial);
+}
+
+.font-terminal {
+  font-family: var(--font-terminal);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.brand-accent {
+  color: var(--brand-red);
+}
+
+.neon-accent {
+  color: var(--ring);
+}
+
+.cyber-grid {
+  background-image:
+    linear-gradient(rgba(0, 255, 65, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 65, 0.045) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.cyber-grid-fine {
+  background-image:
+    linear-gradient(rgba(0, 255, 65, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 65, 0.03) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.cyber-glow {
+  box-shadow: 0 0 24px rgba(0, 255, 65, 0.12);
+}
+
+.red-glow {
+  box-shadow: 0 0 20px rgba(255, 23, 23, 0.14);
+}
+
+.avaka-panel {
+  background: rgba(5, 5, 5, 0.92);
+  border: 1px solid rgba(0, 59, 0, 0.9);
+  border-radius: 0;
+}
+
+.avaka-panel-hover {
+  transition: border-color 180ms cubic-bezier(0.16, 1, 0.3, 1), background-color 180ms cubic-bezier(0.16, 1, 0.3, 1), transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.avaka-panel-hover:hover,
+.avaka-panel-hover:focus-within {
+  border-color: rgba(0, 255, 65, 0.55);
+  background: rgba(8, 12, 9, 0.98);
+}
+
+/* Marquee animation */
+@keyframes avaka-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-avaka-marquee {
+  display: flex;
+  width: max-content;
+  animation: avaka-marquee 38s linear infinite;
+}
+
+.marquee-container:hover .animate-avaka-marquee,
+.marquee-container:focus-within .animate-avaka-marquee {
+  animation-play-state: paused;
+}
+
+/* Focus outline */
+:focus-visible {
+  outline: 2px solid #00FF41;
+  outline-offset: 2px;
+}
+
+/* Reduced motion compliance */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-avaka-marquee {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

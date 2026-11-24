@@ -1,0 +1,6 @@
+{
+  "name": "Avaka Corporation",
+  "description": "Website institucional da Avaka Corporation — cibersegurança corporativa, segurança aeronáutica, marítima e proteção de infraestruturas críticas desde 1916 (projeto conceitual).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,10 @@
+PACOTE: DETALHES DA EMPRESA AVAKA
+
+Conteúdo:
+- Detalhes gerais da empresa.md: dossiê consolidado.
+- 50 avaliacoes ficticias - demonstracao.csv: cinquenta textos de exemplo em setores variados.
+
+AVISO SOBRE AS AVALIAÇÕES:
+Os textos são fictícios, criados para organização interna e demonstração de layout. As empresas e experiências não são reais. Não publique como depoimentos autênticos, avaliações verificadas ou recomendações de clientes reais. Para uso público como prova social, substitua por depoimentos autorizados e verificáveis de clientes reais.
+
+A história, personagens, instalações, clientes, preços e números institucionais da Avaka também são elementos fictícios do projeto.

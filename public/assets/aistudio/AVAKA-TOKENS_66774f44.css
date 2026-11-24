@@ -1,0 +1,103 @@
+/* AVAKA CORPORATION — base de identidade visual
+   Preserve os tokens originais. As fontes auxiliares melhoram a legibilidade. */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=VT323&display=swap');
+
+:root {
+  --card: #050505;
+  --ring: #00FF41;
+  --input: #000000;
+  --muted: #001A00;
+  --accent: #00FF41;
+  --border: #003B00;
+  --radius: 0rem;
+  --chart-1: #00FF41;
+  --chart-2: #008F11;
+  --chart-3: #003B00;
+  --chart-4: #0D0208;
+  --chart-5: #00FF41;
+  --popover: #000000;
+  --primary: #00FF41;
+  --sidebar: #050505;
+  --spacing: 0.25rem;
+  --font-mono: "VT323", monospace;
+  --font-sans: "VT323", "Courier New", monospace;
+  --font-serif: Georgia, serif;
+  --secondary: #003B00;
+  --background: #000000;
+  --foreground: #00FF41;
+  --destructive: #FF0000;
+  --shadow-blur: 10px;
+  --shadow-color: #00FF41;
+  --shadow-spread: 1px;
+  --letter-spacing: 0.1em;
+  --shadow-opacity: 0.2;
+  --sidebar-accent: #003B00;
+  --sidebar-border: #003B00;
+  --card-foreground: #00FF41;
+  --sidebar-primary: #00FF41;
+  --muted-foreground: #008F11;
+  --accent-foreground: #000000;
+  --popover-foreground: #00FF41;
+  --primary-foreground: #000000;
+  --sidebar-foreground: #00FF41;
+  --secondary-foreground: #00FF41;
+  --destructive-foreground: #FFFFFF;
+  --sidebar-accent-foreground: #00FF41;
+  --sidebar-primary-foreground: #000000;
+
+  --brand-red: #ff1717;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-technical: "IBM Plex Mono", monospace;
+}
+
+.dark {
+  --shadow-blur: 15px;
+  --shadow-spread: 2px;
+  --shadow-opacity: 0.4;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: #e8f5e9;
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.03em;
+}
+
+code, pre, .technical-label, nav {
+  font-family: var(--font-technical);
+}
+
+.brand-accent { color: var(--brand-red); }
+.neon-accent { color: var(--ring); }
+
+.cyber-grid {
+  background-image:
+    linear-gradient(rgba(0,255,65,.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,65,.055) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.cyber-glow {
+  box-shadow: 0 0 18px rgba(0,255,65,.16);
+}
+
+.fade-in { animation: fadeIn .7s ease both; }
+.fade-up { animation: fadeUp .7s ease both; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}

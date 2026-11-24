@@ -1,0 +1,51 @@
+﻿ID;Setor da empresa fictícia;Texto demonstrativo;Serviço relacionado;Identificação
+1;Logística;A avaliação de riscos ajudou nossa equipe a identificar fragilidades e organizar prioridades.;Avaliação de riscos;FICTÍCIA — NÃO É DEPOIMENTO REAL
+2;Saúde;A orientação sobre controle de acesso e proteção de informações trouxe clareza aos procedimentos internos.;Consultoria de segurança;FICTÍCIA — NÃO É DEPOIMENTO REAL
+3;Indústria;O diagnóstico técnico foi objetivo e apresentou recomendações que transformamos em plano de ação.;Diagnóstico de segurança;FICTÍCIA — NÃO É DEPOIMENTO REAL
+4;Varejo;O treinamento foi prático e ajudou colaboradores a reconhecer tentativas de fraude.;Treinamento;FICTÍCIA — NÃO É DEPOIMENTO REAL
+5;Transporte;A análise de vulnerabilidades organizou os riscos por prioridade e facilitou o planejamento das correções.;Gestão de vulnerabilidades;FICTÍCIA — NÃO É DEPOIMENTO REAL
+6;Contabilidade;As recomendações sobre autenticação, senhas e permissões foram fáceis de aplicar.;Proteção de acessos;FICTÍCIA — NÃO É DEPOIMENTO REAL
+7;Tecnologia;A revisão de segurança do ambiente de desenvolvimento levantou pontos importantes antes do lançamento.;Revisão de segurança;FICTÍCIA — NÃO É DEPOIMENTO REAL
+8;Construção civil;A consultoria ajudou a mapear sistemas essenciais e procedimentos de continuidade.;Continuidade de negócios;FICTÍCIA — NÃO É DEPOIMENTO REAL
+9;Serviços financeiros;A avaliação destacou controles que mereciam atenção e apresentou uma sequência clara de melhorias.;Avaliação de controles;FICTÍCIA — NÃO É DEPOIMENTO REAL
+10;Educação;O treinamento tornou os riscos digitais mais compreensíveis para professores e equipe administrativa.;Conscientização;FICTÍCIA — NÃO É DEPOIMENTO REAL
+11;Turismo;As recomendações sobre contas corporativas e dados de clientes foram relevantes para nossa rotina.;Consultoria;FICTÍCIA — NÃO É DEPOIMENTO REAL
+12;Energia;A análise de ativos trouxe uma visão mais organizada da superfície digital que precisamos proteger.;Avaliação de ativos;FICTÍCIA — NÃO É DEPOIMENTO REAL
+13;Distribuição;O relatório separou riscos imediatos de melhorias que podem ser planejadas.;Relatório de riscos;FICTÍCIA — NÃO É DEPOIMENTO REAL
+14;Comércio eletrônico;A revisão trouxe medidas para reforçar a proteção das contas e dos sistemas da loja virtual.;Revisão de aplicação;FICTÍCIA — NÃO É DEPOIMENTO REAL
+15;Laboratórios;A equipe explicou riscos de acesso indevido e boas práticas para proteger estações e informações.;Proteção de endpoints;FICTÍCIA — NÃO É DEPOIMENTO REAL
+16;Telecomunicações;A avaliação ajudou a priorizar atualizações e revisar permissões em sistemas internos.;Avaliação técnica;FICTÍCIA — NÃO É DEPOIMENTO REAL
+17;Imobiliário;As orientações sobre acesso remoto e contas foram úteis para padronizar cuidados digitais.;Consultoria;FICTÍCIA — NÃO É DEPOIMENTO REAL
+18;Hotelaria;O conteúdo de conscientização foi acessível para equipes com diferentes níveis de familiaridade tecnológica.;Treinamento;FICTÍCIA — NÃO É DEPOIMENTO REAL
+19;Marítimo;A análise conceitual de comunicação e operação ajudou a organizar requisitos de segurança marítima.;Segurança marítima;FICTÍCIA — NÃO É DEPOIMENTO REAL
+20;Portuário;O estudo de riscos de infraestrutura apresentou uma abordagem estruturada para avaliar dependências.;Infraestrutura crítica;FICTÍCIA — NÃO É DEPOIMENTO REAL
+21;Aviação;A avaliação dos processos digitais ajudou a identificar temas que precisam de acompanhamento especializado.;Segurança aeronáutica;FICTÍCIA — NÃO É DEPOIMENTO REAL
+22;Aeroportuário;O material facilitou a discussão interna sobre acesso, monitoramento e resposta a incidentes.;Consultoria;FICTÍCIA — NÃO É DEPOIMENTO REAL
+23;Aeroespacial;A revisão foi útil para organizar requisitos de proteção desde as etapas iniciais do projeto.;Revisão de projeto;FICTÍCIA — NÃO É DEPOIMENTO REAL
+24;Farmacêutico;As orientações sobre proteção de contas e prevenção de phishing foram claras.;Prevenção de phishing;FICTÍCIA — NÃO É DEPOIMENTO REAL
+25;Jurídico;A conversa sobre confidencialidade e compartilhamento seguro de documentos foi esclarecedora.;Proteção da informação;FICTÍCIA — NÃO É DEPOIMENTO REAL
+26;Agronegócio;O levantamento de sistemas e dependências ajudou a visualizar riscos antes dispersos.;Mapeamento de ativos;FICTÍCIA — NÃO É DEPOIMENTO REAL
+27;Agronegócio;O treinamento trouxe exemplos próximos da realidade dos colaboradores.;Treinamento;FICTÍCIA — NÃO É DEPOIMENTO REAL
+28;Indústria;A avaliação apresentou achados organizados e recomendações técnicas compreensíveis.;Análise de vulnerabilidades;FICTÍCIA — NÃO É DEPOIMENTO REAL
+29;Saneamento;O estudo de continuidade destacou dependências críticas e a importância de testar procedimentos.;Continuidade;FICTÍCIA — NÃO É DEPOIMENTO REAL
+30;Fintech;A revisão de controles foi uma boa base para estruturar prioridades de segurança.;Consultoria;FICTÍCIA — NÃO É DEPOIMENTO REAL
+31;Seguros;O diagnóstico reuniu questões de acesso, proteção de dados e resposta a incidentes em um plano.;Diagnóstico;FICTÍCIA — NÃO É DEPOIMENTO REAL
+32;Fitness;As boas práticas ajudaram a reduzir riscos relacionados a contas compartilhadas e dispositivos comuns.;Segurança de contas;FICTÍCIA — NÃO É DEPOIMENTO REAL
+33;Comunicação;As recomendações para proteger arquivos e acessos externos foram pertinentes ao fluxo de trabalho.;Proteção de arquivos;FICTÍCIA — NÃO É DEPOIMENTO REAL
+34;Eventos;O checklist ajudou a preparar acessos e equipamentos utilizados em operações temporárias.;Checklist;FICTÍCIA — NÃO É DEPOIMENTO REAL
+35;Ensino superior;O conteúdo técnico permitiu iniciar uma conversa institucional sobre maturidade cibernética.;Educação em cibersegurança;FICTÍCIA — NÃO É DEPOIMENTO REAL
+36;Mineração;O levantamento destacou a necessidade de considerar sistemas corporativos e operacionais em conjunto.;Riscos industriais;FICTÍCIA — NÃO É DEPOIMENTO REAL
+37;Combustíveis;As orientações sobre atualizações, acessos e backups ajudaram a estruturar um plano gradual.;Plano de segurança;FICTÍCIA — NÃO É DEPOIMENTO REAL
+38;Logística urbana;A análise dos riscos digitais trouxe pontos concretos para revisar com a equipe de tecnologia.;Análise de processos;FICTÍCIA — NÃO É DEPOIMENTO REAL
+39;Saúde animal;Recebemos explicações simples sobre proteção de dados, senhas e dispositivos compartilhados.;Orientação;FICTÍCIA — NÃO É DEPOIMENTO REAL
+40;Arquitetura;A revisão dos procedimentos de compartilhamento de projetos ajudou a organizar acessos.;Gestão de acessos;FICTÍCIA — NÃO É DEPOIMENTO REAL
+41;Alimentos;O diagnóstico foi apresentado com prioridades e justificativas, facilitando a comunicação com a gestão.;Diagnóstico;FICTÍCIA — NÃO É DEPOIMENTO REAL
+42;Transporte ferroviário;O estudo destacou a importância de inventariar sistemas e dependências antes de definir controles.;Infraestrutura crítica;FICTÍCIA — NÃO É DEPOIMENTO REAL
+43;Marítimo;A avaliação inicial dos sistemas de comunicação trouxe temas úteis para aprofundamento.;Segurança marítima;FICTÍCIA — NÃO É DEPOIMENTO REAL
+44;Tecnologia educacional;As recomendações de proteção de contas e permissões foram relevantes para nossa equipe.;Segurança digital;FICTÍCIA — NÃO É DEPOIMENTO REAL
+45;Saúde;O treinamento ajudou colaboradores a reconhecer sinais de engenharia social e reportar suspeitas.;Treinamento anti-phishing;FICTÍCIA — NÃO É DEPOIMENTO REAL
+46;Comércio exterior;A análise dos fluxos de informação ajudou a identificar pontos para controles adicionais.;Fluxo de dados;FICTÍCIA — NÃO É DEPOIMENTO REAL
+47;Infraestrutura;O relatório trouxe visão consolidada de riscos, prioridades e próximos passos executivos.;Relatório executivo;FICTÍCIA — NÃO É DEPOIMENTO REAL
+48;Manutenção industrial;A revisão de acessos e atualizações trouxe uma lista de ações para avaliação técnica.;Gestão de vulnerabilidades;FICTÍCIA — NÃO É DEPOIMENTO REAL
+49;Serviços públicos;A oficina de conscientização apresentou boas práticas de forma clara e objetiva.;Treinamento;FICTÍCIA — NÃO É DEPOIMENTO REAL
+50;Armazenagem;O plano de melhoria separou ações rápidas de iniciativas estruturais e facilitou o planejamento.;Plano de melhoria;FICTÍCIA — NÃO É DEPOIMENTO REAL
